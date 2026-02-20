@@ -91,8 +91,6 @@
     <li><strong>Gate state</strong> &mdash; total invested per asset, last buy date, last buy price, and the date your maximum was first reached. Used to evaluate your configured rules.</li>
     <li><strong>Market data cache</strong> &mdash; the most recently fetched BTC and ETH prices, stored temporarily to avoid unnecessary network requests. Treated as unavailable after 15 minutes.</li>
     <li><strong>Disclaimer acknowledgement</strong> &mdash; the date and version of the disclaimer you accepted during onboarding.</li>
-    <li><strong>Unlock status</strong> &mdash; a receipt token indicating whether the one-time in-app purchase has been made. Stored locally; no payment details are stored by the app.</li>
-  </ul>
   <p>
     None of this data is linked to your identity. The app has no user accounts and no
     mechanism to associate stored data with any individual.
@@ -110,7 +108,7 @@
 
   <h2>Third-party services</h2>
   <p>
-    The app makes outbound network requests to two external services. In both cases, your
+    The app makes outbound network requests to one external services. Your
     device&rsquo;s IP address is included in the request as a standard part of how internet
     connections work. CDG has no control over how these services handle that information.
   </p>
@@ -124,15 +122,6 @@
     The app retrieves public market data from CoinGecko via secure HTTPS requests. No personal data is transmitted.
     CoinGecko&rsquo;s own privacy policy governs their data practices:
     <a href="https://www.coingecko.com/en/privacy" target="_blank" rel="noopener">coingecko.com/en/privacy</a>.
-  </p>
-
-  <p>
-    <strong>Apple App Store / Google Play (in-app purchase)</strong><br />
-    If you make the one-time in-app purchase, the transaction is processed entirely by Apple
-    or Google through their standard payment infrastructure. CDG receives only a receipt token
-    confirming the purchase was made; it does not receive or store any payment card details or
-    billing information. Apple&rsquo;s and Google&rsquo;s respective privacy policies govern
-    their handling of purchase data.
   </p>
 
   <h2>Data sharing</h2>
